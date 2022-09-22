@@ -1,0 +1,59 @@
+* {
+  font-family: system-ui;
+}
+
+body {
+  background-image: url(bck.jpg);
+  background-size: cover;
+  justify-content: center;
+  text-align: center;
+  height: 100vh;
+}
+h2 {
+  font-size: 22px;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  padding-top: 35vh;
+  font-weight: 700;
+}
+.clock {
+  justify-content: center;
+
+  display: flex;
+}
+.clock div {
+  margin: 5px;
+  position: relative;
+}
+
+.clock span {
+  width: 100px;
+  height: 80px;
+  background: slateblue;
+  opacity: 0.8;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.clock .text {
+  height: 30px;
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  background: darkblue;
+  opacity: 0.8;
+}
+
+.clock #ampm {
+  bottom: 0;
+  position: absolute;
+  width: 60px;
+  height: 30px;
+  font-size: 20px;
+  background: green;
+}
